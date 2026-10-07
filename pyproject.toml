@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seller-evidence"
+version = "0.1.0"
+description = "Offline aggregate CSV validation and honest experiment tracking for digital sellers."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = []
+
+[project.scripts]
+seller-evidence = "seller_evidence.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
