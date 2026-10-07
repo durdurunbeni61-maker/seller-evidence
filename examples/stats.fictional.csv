@@ -1,0 +1,5 @@
+product_id,period_start,period_end,channel,views,visits,orders,revenue,currency
+demo-A,2030-01-07,2030-01-13,search,100,20,2,30.00,USD
+demo-A,2030-01-14,2030-01-20,search,60,12,1,15.00,USD
+demo-B,2030-01-07,2030-01-13,social,0,0,0,0.00,USD
+demo-C,2030-01-07,2030-01-13,search,,,,,USD
